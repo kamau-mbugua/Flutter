@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
           title: Text('Welcome to Flutter'),
         ),
         body: Center(
-          child: RandomWords();
+          child: RandomWords(),
           //child: Text(wordPair.asPascalCase),
 
           //child: Text('Am Kamau')
