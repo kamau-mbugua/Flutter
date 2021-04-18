@@ -19,6 +19,10 @@ class MyApp extends StatelessWidget {
       //title: 'Welcome to Flutter',
       //home: Scaffold(
       title: 'Startup Name Generator',
+
+      theme: ThemeData(
+        primaryColor: Colors.white ,
+      ),
       home: RandomWords(),
 
     );
