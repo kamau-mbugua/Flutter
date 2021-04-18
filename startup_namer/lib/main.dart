@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
       title: 'Startup Name Generator',
 
       theme: ThemeData(
-        primaryColor: Colors.white ,
+        primaryColor: Colors.blue ,
       ),
       home: RandomWords(),
 
