@@ -31,6 +31,7 @@ class RandomWords extends StatefulWidget {
 }
 
 class _RandomWordsState extends State<RandomWords> {
+  final _saved = <WordPair>{};
   final _suggestions = <WordPair>[];
   final _biggerFont = TextStyle(fontSize: 18.0);
 
